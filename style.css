@@ -1,0 +1,36 @@
+/*page wide styles*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(31, 46, 46);
+}
+
+.navbar {
+    display: flex;
+    width: auto;
+    height: 10vh;
+    background-color: rgb(5, 22, 22);
+}
+
+@media (min-width:600px) {
+    .navbar {
+        height: auto;
+    }
+}
+
+.logo {
+    float: left;
+}
+
+.profile-logo {
+    float: right;
+}
+
+.search-logo {
+    float: right;
+}
