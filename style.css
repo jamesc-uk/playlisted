@@ -7,30 +7,26 @@
 }
 
 body {
-    background-color: rgb(31, 46, 46);
+    background-color: #461111;
 }
+
 
 .navbar {
-    display: flex;
-    width: auto;
-    height: 10vh;
-    background-color: rgb(5, 22, 22);
-}
+        height: 75px;
+        justify-content: space-between;
+        background-color: #040303;
+        display: flex;
+    }
 
-@media (min-width:600px) {
+@media (max-width:600px) {
     .navbar {
-        height: auto;
+        width: auto;
+        height: 10vh;
     }
 }
 
-.logo {
-    float: left;
-}
-
 .profile-logo {
-    float: right;
-}
-
-.search-logo {
-    float: right;
+   height: 16.25%;
+   width: 16.25%;
+   filter: invert(95%) sepia(99%) saturate(27%) hue-rotate(62deg) brightness(107%) contrast(100%);
 }
